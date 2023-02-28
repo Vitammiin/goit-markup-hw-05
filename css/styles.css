@@ -45,6 +45,7 @@
 .header-item:focus,
 .header-item:hover {
     color: #404BBF;
+    
 }
 
 .header-link {
@@ -69,7 +70,7 @@ padding-top: 24px;
    left: 0;
    bottom: 0;
   opacity: 0;
-  transition: transform 250ms;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: scaleX(0);
   
 
@@ -168,6 +169,7 @@ padding: 16px 32px;
 
     color: #FFFFFF
     ;
+    
 }
 .button:active {
     background-color: #404BBF;
@@ -660,6 +662,7 @@ letter-spacing: 0.02em;
     .test-item {
         width: 168px;
         height: 88px;
+       
     }
     .test-link {
         width: 100%;
@@ -669,24 +672,19 @@ letter-spacing: 0.02em;
         display: flex;
         align-items: center;
         justify-content: center;
+        color: #8E8F99;
     }
 
-.test-link:is(:hover, :focus) {
-border-color: #404BBF;
+.test-link:hover,
+.test-link:focus {
+    border-color: #404BBF;
+    color: #404BBF;
+
     }
 
-
-
-.test-icon:is(:hover, :focus) {
-    fill: #404BBF;
-}
-
-    .link {
-    }
-    .test-icon {
-        fill: #8E8F99;
-      
-    }
+   .test-icon {
+    fill: currentColor ;
+   }
 
     .social-div {
         margin-left: 120px;
@@ -751,9 +749,7 @@ border-color: #404BBF;
  
     }
 
-    .test-icon :is(:hover, :focus) {
-        background-color: #404BBF;
-fill:  #404BBF;;
+
  
  
     }
@@ -787,7 +783,7 @@ fill:  #404BBF;;
         width: 24px;
         height: 24px;
         border: 1px solid rgba(0, 0, 0, 0.1);
-        background-color: #E7E9FC;
+        background-color: #2f3ec4;
         border-radius: 50%;
         display: flex;
         justify-content: center;
