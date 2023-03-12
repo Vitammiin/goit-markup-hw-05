@@ -16,46 +16,122 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desctop.css" />
   </head>
 
   <body>
     <header class="header">
-      <div class="container div-header-container">
-        <nav class="header-navigation">
-          <a class="header-logo link" href="./index.html"
-            ><span class="logo-web">Web</span>Studio</a
-          >
 
-          <ul class="header-list list">
-            <li class="header-item">
-              <a class="header-link link" href="index.html">Studio</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link link" href="">Contacts</a>
-            </li>
-          </ul>
+        <div class="container div-header-container">
+          <nav class="header-navigation">
+           <di class="flexx">
+              <a class="header-logo link" href="./index.html"
+                ><span class="logo-web">Web</span>Studio</a
+              >
+              <button type="button"data-menu-open class="open-menu"></button>
+       
+           </di >
+
+            <ul class="header-list list">
+              <li class="header-item">
+                <a class="header-link link" href="index.html">Studio</a>
+              </li>
+              <li class="header-item">
+                <a class="header-link link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="header-item">
+                <a class="header-link link" href="">Contacts</a>
+              </li>
+            </ul>
+  
+            <!--address-->
+  
+            <address class="adress">
+              <ul class="list adress-flex">
+                <li>
+                  <a class="header-mail link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="header-tel link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+       
+          <div data-modal  class="mob-menu is-hidden" data-menu>
+           <div class="container-mob" >
+             <div>
+                <button type="button" data-menu-close class="menu-close">X</button>
+                <ul class="menu-container-list">
+                  <li class="menu-container-item link">
+                    <a class="menu-container-link" href="index.html">Studio</a>
+                  </li>
+                  <li class="menu-container-item link">
+                    <a class="menu-container-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="menu-container-item link">
+                    <a class="menu-container-link" href="">Contacts</a>
+                  </li>
+                </ul>
+             </div>
+             <div>
+                <ul class="list adress-menu">
+               
+                  <li>
+                    <a class="menu-tel link" href="tel:+110001111111"
+                      >+11 (000) 111-11-11</a
+                    >
+                  </li>
+                     <li>
+                    <a class="menu-mail link" href="mailto:info@devstudio.com"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+  
+                </ul>
+                <ul class="social-list gap-al list">
+                  <li class="social-item">
+                    <a class="social-link link" href>
+                      <svg class="bord-soc-icon" width="16" height="16">
+                        <use href="./images/icon.svg#icon-instagram1n"></use>
+                      </svg>
+                    </a>
+                  </li>
+  
+                  <li class="social-item">
+                    <a class="social-link link" href="">
+                      <svg class="bord-soc-icon" width="16" height="16">
+                        <use href="./images/icon.svg#icon-twitter2n"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link link" href="">
+                      <svg class="bord-soc-icon" width="16" height="16">
+                        <use href="./images/icon.svg#icon-facebook3n"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link link" href="">
+                      <svg class="bord-soc-icon" width="16" height="16">
+                        <use href="./images/icon.svg#icon-linkedin4n"></use>
+                      </svg>
+                    </a>
+                  </li>
+              </ul>
+         </di>
+             </div>
+            </div>
+          </div>
         </nav>
-        <!--address-->
-
-        <address class="adress">
-          <ul class="list adress-flex">
-            <li>
-              <a class="header-mail link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="header-tel link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
       </div>
+    
     </header>
 
     <main>
@@ -63,7 +139,7 @@
 
       <section class="section">
         <div class="container">
-          <h1 class="hero">Effective Solutions for Your Business</h1>
+          <h1 class="hero">Effective Solutions For Your Business</h1>
           <button data-modal-open type="button" class="button" type="button">
             Order Service
           </button>
@@ -74,7 +150,7 @@
 
       <section class="strategy">
         <div class="container">
-          <h2 class="visually-hidden">benefit</h2>
+          <h2 class="visually-hidden">Strategy</h2>
           <ul class="list sectionone">
             <li class="li-one">
               <div class="strat-fon">
@@ -349,6 +425,8 @@
           </ul>
         </div>
       </section>
+
+      <!--section 5-->
       <section class="test">
         <div class="container">
           <h2 class="test-h2">Customers</h2>
@@ -449,7 +527,7 @@
       </div>
     </footer>
 
-    <div data-modal class="backdrob">
+    <div data-modal class="backdrob is-hidden">
       <div class="modal">
         <button
           data-modal-close
@@ -463,6 +541,7 @@
         </button>
       </div>
     </div>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
