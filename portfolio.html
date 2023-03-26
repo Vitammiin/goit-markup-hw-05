@@ -9,7 +9,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desctop.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,43 +19,121 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header class="header">
-      <div class="container div-header-container">
-        <nav class="header-navigation">
-          <a class="header-logo link" href="./index.html"
-            ><span class="logo-web">Web</span>Studio</a
-          >
 
-          <ul class="header-list list">
-            <li class="header-item">
-              <a class="header-link link" href="index.html">Studio</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link link" href="">Contacts</a>
-            </li>
-          </ul>
+        <div class="container div-header-container">
+          <nav class="header-navigation">
+
+           <div class="flexx">
+              <div>
+                <a class="header-logo link" href="./index.html"
+                  ><span class="logo-web">Web</span>Studio</a>
+              </div>
+              <div class="svg-menu">
+                  <svg data-modal-open xmlns="http://www.w3.org/2000/svg" width="32" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"/></svg>
+              </div>
+           </div >
+
+            <ul class="header-list list">
+              <li class="header-item">
+                <a class="header-link link" href="index.html">Studio</a>
+              </li>
+              <li class="header-item">
+                <a class="header-link link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="header-item">
+                <a class="header-link link" href="">Contacts</a>
+              </li>
+            </ul>
+  
+            <!--address-->
+  
+            <address class="adress">
+              <ul class="list adress-flex">
+                <li>
+                  <a class="header-mail link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="header-tel link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+       
+          <div data-modal  class="mob-menu is-hidden" >
+           <div class="container-mob" >
+             <div>
+                <button type="button" data-modal-close class="menu-close">X</button>
+                <ul class="menu-container-list">
+                  <li class="menu-container-item link">
+                    <a class="menu-container-link" href="index.html">Studio</a>
+                  </li>
+                  <li class="menu-container-item link">
+                    <a class="menu-container-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="menu-container-item link">
+                    <a class="menu-container-link" href="">Contacts</a>
+                  </li>
+                </ul>
+             </div>
+             <div>
+                <ul class="list adress-menu">
+               
+                  <li>
+                    <a class="menu-tel link" href="tel:+110001111111"
+                      >+11 (000) 111-11-11</a
+                    >
+                  </li>
+                     <li>
+                    <a class="menu-mail link" href="mailto:info@devstudio.com"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+  
+                </ul>
+                <ul class="social-list gap-al list">
+                  <li class="social-item">
+                    <a class="social-link link" href>
+                      <svg class="bord-soc-icon" width="16" height="16">
+                        <use href="./images/icon.svg#icon-instagram1n"></use>
+                      </svg>
+                    </a>
+                  </li>
+  
+                  <li class="social-item">
+                    <a class="social-link link" href="">
+                      <svg class="bord-soc-icon" width="16" height="16">
+                        <use href="./images/icon.svg#icon-twitter2n"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link link" href="">
+                      <svg class="bord-soc-icon" width="16" height="16">
+                        <use href="./images/icon.svg#icon-facebook3n"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="social-link link" href="">
+                      <svg class="bord-soc-icon" width="16" height="16">
+                        <use href="./images/icon.svg#icon-linkedin4n"></use>
+                      </svg>
+                    </a>
+                  </li>
+              </ul>
+         </di>
+             </div>
+            </div>
+          </div>
         </nav>
-        <!--address-->
-
-        <address class="adress">
-          <ul class="list adress-flex">
-            <li>
-              <a class="header-mail link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="header-tel link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
       </div>
+    
     </header>
 
     <main>
@@ -238,51 +318,62 @@
     </main>
 
     <footer class="footer">
-      <div class="container div-footer">
-        <div>
-          <a class="footer-logo link" href="./index.html"
-            ><span class="foot-web">Web</span>Studio</a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="social-div">
-          <p class="foot-soc-text">Social media</p>
-          <ul class="foot-ul">
-            <li class="foot-li">
-              <a class="foot-a" href>
-                <svg class="foot-svg" width="24" height="24">
-                  <use href="./images/icon.svg#icon-instagram1n"></use>
-                </svg>
-              </a>
-            </li>
-
-            <li class="foot-li">
-              <a class="foot-a" href="">
-                <svg class="foot-svg" width="24" height="24">
-                  <use href="./images/icon.svg#icon-twitter2n"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="foot-li">
-              <a class="foot-a" href="">
-                <svg class="foot-svg" width="24" height="24">
-                  <use href="./images/icon.svg#icon-facebook3n"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="foot-li">
-              <a class="foot-a" href="">
-                <svg class="foot-svg" width="24" height="24">
-                  <use href="./images/icon.svg#icon-linkedin4n"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+      <div class="container">
+         <div class=" div-footer">
+           <div class="foot-t container">
+             <a class="footer-logo link" href="./index.html"
+               ><span class="foot-web">Web</span>Studio</a
+             >
+             <p class="footer-text">
+               Increase the flow of customers and sales for your business with
+               digital marketing & growth solutions.
+             </p>
+           </div>
+           <div class="social-div container">
+             <p class="foot-soc-text">Social media</p>
+             <ul class="foot-ul">
+               <li class="foot-li">
+                 <a class="foot-a" href>
+                   <svg class="foot-svg" width="24" height="24">
+                     <use href="./images/icon.svg#icon-instagram1n"></use>
+                   </svg>
+                 </a>
+               </li>
+   
+               <li class="foot-li">
+                 <a class="foot-a" href="">
+                   <svg class="foot-svg" width="24" height="24">
+                     <use href="./images/icon.svg#icon-twitter2n"></use>
+                   </svg>
+                 </a>
+               </li>
+               <li class="foot-li">
+                 <a class="foot-a" href="">
+                   <svg class="foot-svg" width="24" height="24">
+                     <use href="./images/icon.svg#icon-facebook3n"></use>
+                   </svg>
+                 </a>
+               </li>
+               <li class="foot-li">
+                 <a class="foot-a" href="">
+                   <svg class="foot-svg" width="24" height="24">
+                     <use href="./images/icon.svg#icon-linkedin4n"></use>
+                   </svg>
+                 </a>
+               </li>
+             </ul>
+           </div>
+         </div>
+ <div class="subscribe-div container">
+           <p>Subscribe</p>
+         <form class="form-input">
+             <input type="text" class="input" value="E-mail">
+         </form>
+         <button class="button-subscribe">Subscribe</button>
+ </div>
       </div>
-    </footer>
+     </footer>
+ 
+    <script src="./js/modal.js"></script>
   </body>
 </html>
