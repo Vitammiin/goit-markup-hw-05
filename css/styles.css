@@ -1,5 +1,3 @@
-/*
-
 :root {
     --primary-text-color: #2E2F42;
     --background-color: #FFFFFF;
@@ -15,17 +13,15 @@
         background-color: var(--primary-bg-color);
         
 }
-/*---------text no point-----
+/*---------text no point-----*/
 .link {
     text-decoration: none; 
     display: block;
     
-  
+   
  
  }
  
-
-
  .header-navigation {
     display: flex;
     justify-content: center;
@@ -35,7 +31,7 @@
  .list {
      list-style: none;
  }
-/*-----------header------------
+/*-----------header------------*/
 
 .header {
     background-color: #FFFFFF;
@@ -49,7 +45,6 @@
 .header-item:focus,
 .header-item:hover {
     color: #404BBF;
-    
 }
 
 .header-link {
@@ -74,7 +69,7 @@ padding-top: 24px;
    left: 0;
    bottom: 0;
   opacity: 0;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms;
   transform: scaleX(0);
   
 
@@ -115,7 +110,7 @@ padding-bottom: 25px;
     color: #404BBF;
 }
 
-/*------------hero-----------
+/*------------hero-----------*/
 .hero {
 font-size: 56px;
 line-height: 1.07;
@@ -129,6 +124,9 @@ color: #FFFFFF;
 width: 496px;
 margin-left: auto;
 margin-right: auto;
+
+
+
 }
 
 .button {
@@ -170,7 +168,6 @@ padding: 16px 32px;
 
     color: #FFFFFF
     ;
-    
 }
 .button:active {
     background-color: #404BBF;
@@ -198,29 +195,30 @@ align-items: center;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: #434455
+;
+
 align-content: center;
 margin-bottom: 8px;
 }
-/*
-    .capital {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 72px;
-    }
 
-*/
+.capital {
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+margin-bottom: 72px;
+}
 
-/*-------ourteam------
+
+/*-------ourteam------*/
 .team {
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
    
  
-} */
+}
 
 /*--------button-portfolio------*/
 
@@ -284,7 +282,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
     border-radius: 0px 0px 4px 4px;
     
     
-/*
+
 
 }
 .logo-web {
@@ -296,15 +294,11 @@ line-height: 1.33;
 letter-spacing: 0.03em;
 text-transform: uppercase
 }
-/*
 .doing{
     padding-bottom: 120px;
-    
 }
-
-
 .header-logo {
-font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33; 
@@ -312,7 +306,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42;
 }
-/*
+
 
 .visually-hidden {
     position: absolute;
@@ -326,7 +320,7 @@ color: #2E2F42;
     clip-path: inset(50%);
     margin: -1px;
     }
-   /* 
+    
     .footer-logo {
  font-family: 'Raleway', sans-serif;
 font-size: 18px;
@@ -336,7 +330,6 @@ color: #F4F4FD;
 text-transform: uppercase;
 
     }
-    */
 
 .foot-web {
 color: #4D5AE5;
@@ -362,10 +355,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 margin-top: 16px;
+
+
 width: 264px;
 
 }
-/*
+
 .header-link {
     color: #2E2F42;
 }
@@ -392,7 +387,7 @@ width: 264px;
     color: #434455
     ;
  }
-/*
+
  .hero {
     color: #FFFFFF
     ;
@@ -420,7 +415,7 @@ width: 264px;
    
         background-position: center;
         background-size: cover;
-   
+   */
     
  
 }
@@ -429,7 +424,7 @@ width: 264px;
     font-style: normal;
     margin-left: auto;
  }
-*/
+
  .feature-li {
     background-color: #FFFFFF;
    
@@ -471,7 +466,7 @@ width: 264px;
     
    
  }
-/*
+
  .header-list {
     display: flex; 
     gap: 40px;
@@ -479,15 +474,15 @@ width: 264px;
    
  }
 
-*/
-/*
+
+
  .adress-flex {
     display: flex;
     display: block;
    
     gap: 40px;
 
-*/
+
  }
  .container {
     width: 100%;
@@ -510,12 +505,11 @@ width: 264px;
     display: block;
  }
 
-/*
  .sectionone {
     display: flex;
     gap: 24px;
  }
-*/
+
 
  .list {
     display: flex;
@@ -532,12 +526,16 @@ width: 264px;
 
  }
 
- 
+ .footer {
+
+ }
 .footer-logo{
     padding-top: 0px;
     padding-bottom: 0;
 }
+ .div-footer {
 
+}
 .but-portfolio {
     gap: 24px;
     justify-content: center; 
@@ -597,7 +595,7 @@ img {
     height: auto;
     }"
     
-/*
+
     .social-list {
         display: flex;
         justify-content: center;
@@ -609,7 +607,8 @@ img {
         gap: 24px;
     }
 
-    
+    .list {
+    }
     .social-item {
         width: 40px;
         height: 40px;
@@ -631,17 +630,12 @@ img {
         fill: chartreuse;
     }
 
-    
-
-
-
     .social-link:is(:hover, :focus) {
         background-color: #404BBF;
     }
 
 
-     TEST 
-
+    /* TEST */
     .test-h2{
         justify-content: center;
        
@@ -653,8 +647,6 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
     }
-
-    
 .test {
     padding-top: 130px;
     padding-bottom: 120px;
@@ -668,7 +660,6 @@ letter-spacing: 0.02em;
     .test-item {
         width: 168px;
         height: 88px;
-       
     }
     .test-link {
         width: 100%;
@@ -678,29 +669,33 @@ letter-spacing: 0.02em;
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #8E8F99;
     }
 
-.test-link:hover,
-.test-link:focus {
-    border-color: #404BBF;
-    color: #404BBF;
-
+.test-link:is(:hover, :focus) {
+border-color: #404BBF;
     }
 
-   .test-icon {
-    fill: currentColor ;
-   }
+
+
+.test-icon:is(:hover, :focus) {
+    fill: #404BBF;
+}
+
+    .link {
+    }
+    .test-icon {
+        fill: #8E8F99;
+      
+    }
 
     .social-div {
         margin-left: 120px;
        
        
     }
-    
 .div-footer {
     display: flex;
-} 
+}
     .foot-soc-text {
         color: #FFFFFF;
      
@@ -714,7 +709,6 @@ letter-spacing: 0.02em;
         list-style: none;
         
     }
-    
     .foot-li {
         width: 40px;
         height: 40px;
@@ -732,7 +726,7 @@ letter-spacing: 0.02em;
         align-items: center;
         border-radius: 50%;
         background-color:rgba(255, 255, 255, 0.1);
-    } */
+    }
     .foot-svg {
     }
 
@@ -757,10 +751,13 @@ letter-spacing: 0.02em;
  
     }
 
+    .test-icon :is(:hover, :focus) {
+        background-color: #404BBF;
+fill:  #404BBF;;
+ 
+ 
+    }
 
- 
- 
-    
     .all:is(:hover, :focus) {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
         
@@ -786,16 +783,11 @@ letter-spacing: 0.02em;
 
     }
 
-    .backdrob.is-hidden{
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-    }
     .modal-button {
         width: 24px;
         height: 24px;
         border: 1px solid rgba(0, 0, 0, 0.1);
-        background-color: #2f3ec4;
+        background-color: #E7E9FC;
         border-radius: 50%;
         display: flex;
         justify-content: center;
