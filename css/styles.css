@@ -402,7 +402,7 @@ width: 264px;
    text-align: center;
    background-image:linear-gradient(rgba(46, 47, 66, 0.7),
    rgba(46, 47, 66, 0.7)),
-    url(../images/front/people-office.jpg);
+    url(../images/front/homedesctop.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -771,6 +771,11 @@ fill:  #404BBF;;
         background-color: rgba(46, 47, 66, 0.4);
     }
 
+    .backdrob.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
     .modal {
         width: 408px;
         min-height: 576px;
