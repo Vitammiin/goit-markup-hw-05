@@ -562,7 +562,7 @@ width: 264px;
     padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px;
- text-align: center;
+    text-align: center;
 }
 
 .cardss {
@@ -723,6 +723,7 @@ border-color: #404BBF;
         background-color:rgba(255, 255, 255, 0.1);
     }
     .foot-svg {
+
     }
 
     
@@ -739,11 +740,15 @@ border-color: #404BBF;
       
     }
 
+    .foot-a{
+        transform: background-color;
+        transition: 250ms linear;
+
+    }
+
     .foot-a:is(:hover, :focus) {
         background-color: #31D0AA;
     
- 
- 
     }
     
     .test-icon{
