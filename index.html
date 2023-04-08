@@ -29,7 +29,7 @@
 
           <ul class="header-list list">
             <li class="header-item">
-              <a class="header-link link" href="index.html">Studio</a>
+              <a class="header-link carent link" href="index.html">Studio</a>
             </li>
             <li class="header-item">
               <a class="header-link link" href="portfolio.html">Portfolio</a>
@@ -60,7 +60,6 @@
 
     <main>
       <!--Section 1-->
-
       <section class="section">
         <div class="container">
           <h1 class="hero">Effective Solutions For Your Business</h1>
@@ -451,12 +450,7 @@
     <div data-order class="backdrob is-hidden">
       <div class="modal">
         <div class="modal-box container">
-          <button
-            data-order-close
-            class="modal-button"
-            type="button"
-            class="modal-close"
-          >
+          <button data-order-close type="button" class="modal-close">
             <svg class="modal-close-icone" width="8" height="8">
               <use href="./images/close.svg"></use>
             </svg>
@@ -517,8 +511,11 @@
                 ></textarea>
               </div>
               <div>
-                <label for="accept"></label>
-                <input type="radio" />
+                <input type="checkbox" id="accept" value="accept" />
+                <label class="accept-lab" for="accept"
+                  >I accept the terms and conditions of the
+                  <a href=""> Privacy Policy</a></label
+                >
               </div>
               <button class="send" type="submit">Send</button>
             </div>
@@ -526,7 +523,6 @@
         </div>
       </div>
     </div>
-
     <script src="./js/order.js"></script>
     <script src="./js/modal.js"></script>
   </body>

@@ -58,7 +58,8 @@ padding-top: 24px;
 
 }
 
-.header-link::after {
+
+.carent::after {
     content: '';
     display: block;
     width: 100%;
@@ -68,17 +69,16 @@ padding-top: 24px;
    position: absolute;
    left: 0;
    bottom: 0;
-  opacity: 0;
   transition: transform 250ms;
-  transform: scaleX(0);
-  
 
 }
 
-.header-link:hover::after {
+.carent:hover::after {
     transform: scaleX(1);
     opacity: 1;
 }
+
+
 
 
 .header-mail { 
@@ -231,7 +231,6 @@ margin-bottom: 72px;
 
 .button-portfolio {
     font-family: 'Roboto';
-
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
@@ -422,8 +421,38 @@ width: 264px;
 
  .feature-li {
     background-color: #FFFFFF;
+    box-shadow: 2px solid #404BBF;
    
  }
+
+
+
+
+
+
+
+
+
+ .feature-li:hover{
+     box-shadow: 1px 0px 2px rgba(46, 47, 66, 0.08);
+     border-radius: 1px ;
+     box-shadow: 0px, 1px
+     rgba(46, 47, 66, 0.16);
+ }
+
+
+ Radius: 1px
+Offset: 0px, 2px
+rgba(46, 47, 66, 0.08)
+Effect: Drop shadow
+Radius: 1px
+Offset: 0px, 1px
+rgba(46, 47, 66, 0.16)
+Effect: Drop shadow
+Radius: 6px
+Offset: 0px, 1px
+rgba(46, 47, 66, 0.08)
+
 
  .all {
     text-decoration: none;
