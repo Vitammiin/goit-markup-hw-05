@@ -811,6 +811,10 @@ border-color: #404BBF;
     visibility: hidden;
     pointer-events: none;
 }
+
+/* modal */
+
+
     .modal {
         width: 408px;
         min-height: 576px;
@@ -835,3 +839,87 @@ border-color: #404BBF;
         margin-left: auto;
         padding: 0;
     } 
+
+    .container-madal{
+        padding-left: 25px;
+      padding-right: 25px;
+  }
+  .modal-button {
+      width: 24px;
+      height: 24px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      background-color: #E7E9FC;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      padding: 0;
+      margin-top: 24px;
+  } 
+  /*  new */
+.order-input{
+  padding-left: 30px;
+    height: 25px;
+  width: 100%;
+}
+.order-input-send {
+  background-color: #FCFCFC;
+  padding-top: 8px;
+  padding-left: 16px;
+  resize: none;
+  margin-top: 4px;
+  width: 360px;
+    height: 120px;
+}
+
+.modal-icon{
+  position: absolute; 
+ left: 20px;
+ 
+}
+
+
+.span-name{
+  
+}
+
+.accept-lab{
+  font-size: 12px;
+}
+.modal-h{Text style: Body Medium
+  font-family: Roboto; 
+  font-style: Medium;
+  font-size: 16px;
+  Line height: 128%;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 16px;
+ 
+}
+
+
+.modal-close {
+    margin-left: 360px;
+}
+
+.send {
+    font-family: inherit;
+    background: #4D5AE5;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.5;
+    min-width: 169px;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    color: #FFFFFF;
+    box-shadow: 0px, 4px
+    rgba(0, 0, 0, 0.15);
+    margin-top: 24px;
+   
+}
+
+.div-but-send {
+    text-align: center;
+}
