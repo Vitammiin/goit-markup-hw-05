@@ -641,16 +641,25 @@ img {
         align-items: center;
         border-radius: 50%;
         background-color: #4D5AE5;
-        transition-property:#404BBF;
-        text-decoration: 450ms;
+        transform: background-color;
+        transition: 300ms linear;
     }
    
    
     .social-link:is(:hover, :focus) {
         background-color: #404BBF;
     }
+    /*
+    .foot-a{
+        transform: background-color;
+        transition: 250ms linear;
 
+    }
 
+    .foot-a:is(:hover, :focus) {
+        background-color: #31D0AA;
+    
+*/
     /* TEST */
     .test-h2{
         justify-content: center;
