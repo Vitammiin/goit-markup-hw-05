@@ -863,6 +863,13 @@ border-color: #404BBF;
     height: 25px;
   width: 100%;
 }
+
+.order-input:focus{
+    border-color: #4D5AE5;
+}
+.modal-icon:focus + .order-input{
+    fill: #4D5AE5 ;
+}
 .order-input-send {
   background-color: #FCFCFC;
   padding-top: 8px;
@@ -870,7 +877,7 @@ border-color: #404BBF;
   resize: none;
   margin-top: 4px;
   width: 360px;
-    height: 120px;
+ height: 120px;
 }
 
 .modal-icon{
