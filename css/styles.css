@@ -195,11 +195,8 @@ align-items: center;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455
-;
-
+color: #434455;
 align-content: center;
-margin-bottom: 8px;
 }
 
 .capital {
@@ -425,16 +422,8 @@ width: 264px;
    
  }
 
-
-
-
-
-
-
-
-
  .feature-li:hover{
-     box-shadow: 1px 0px 2px rgba(46, 47, 66, 0.08);
+     box-shadow: 2px 0px 10px rgba(46, 47, 66, 0.08);
      border-radius: 1px ;
      box-shadow: 0px, 1px
      rgba(46, 47, 66, 0.16);
@@ -539,9 +528,7 @@ width: 264px;
 
  }
 
- .footer {
 
- }
 .footer-logo{
     padding-top: 0px;
     padding-bottom: 0;
@@ -551,9 +538,7 @@ width: 264px;
 }
 .but-portfolio {
     gap: 24px;
-    justify-content: center; 
-   
-  
+    justify-content: center;  
 }
 
 .blank {
@@ -594,10 +579,7 @@ border-top: none;
 
 .li-fotosi {
     width: 360px;
-
-   
 }
-
 .sec-portfo {
     padding-top: 96px;
     padding-bottom: 120px;
@@ -606,28 +588,23 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    }"
+    }
     
 
     .social-list {
         display: flex;
-        justify-content: center;
-        
-        
+        justify-content: center;     
     } 
 
     .gap-al {
         gap: 24px;
     }
 
-    .list {
-    }
+   
     .social-item {
         width: 40px;
         height: 40px;
-        
-        
-    } 
+            } 
 
 
 
@@ -720,9 +697,7 @@ border-color: #404BBF;
     }
 
     .social-div {
-        margin-left: 120px;
-       
-       
+        margin-left: 120px;     
     }
 
 .div-footer {
@@ -730,8 +705,7 @@ border-color: #404BBF;
 }
 
     .foot-soc-text {
-        color: #FFFFFF;
-     
+        color: #FFFFFF;  
     }
 
 
@@ -774,7 +748,6 @@ border-color: #404BBF;
         align-items: center;
         border-radius: 4px;
     margin-bottom: 8px;
-
       
     }
 
@@ -833,9 +806,12 @@ border-color: #404BBF;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-
+        transition-property: opacity; /* Свойство для анимации */
+        transition-duration: 1.3s; 
     }
+.modal-box{ 
 
+}
 .modal-button {
         width: 24px;
         height: 24px;
@@ -894,17 +870,13 @@ border-color: #404BBF;
  left: 20px;
  
 }
-
-
 .span-name{
     color: #8E8F99;
     margin-top: 4px;
     font-size: 12px;
     font-family: Roboto;
-    line-height: 114%;
-    
+    line-height: 114%;  
 }
-
 .accept-lab{
   font-size: 12px;
   box-shadow:  1px 0px 4px  rgba(0, 0, 0, 0.25);
