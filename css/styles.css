@@ -806,9 +806,20 @@ border-color: #404BBF;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        transition-property: opacity; /* Свойство для анимации */
-        transition-duration: 1.3s; 
+       
     }
+
+    .backdrob{
+        transition-property: opacity, visibility;;
+        transition-duration: 350ms;
+        transition-timing-function: linear;
+    }
+
+.backdrob{
+    visibility: visible;
+    opacity: 1;
+}
+
 .modal-box{ 
 
 }
